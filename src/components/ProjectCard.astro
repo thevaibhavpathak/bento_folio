@@ -1,0 +1,11 @@
+<!-- src/components/ProjectCard.astro -->
+
+---
+const { project } = Astro.props;
+---
+
+<div class="project-card">
+  <h2>{project.title}</h2>
+  <p>{project.description}</p>
+  <!-- Add more project details as needed -->
+</div>
