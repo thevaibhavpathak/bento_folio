@@ -1,7 +1,5 @@
 import { defineConfig } from "astro/config";
-import sitemap from "@astrojs/sitemap";
 import netlify from "@astrojs/netlify";
-import robotsTxt from "astro-robots-txt";
 import UnoCSS from "@unocss/astro";
 import icon from "astro-icon";
 
@@ -15,13 +13,6 @@ import image from "@astrojs/image";
 export default defineConfig({
   site: "https://vaibhavpathak.me/",
   integrations: [
-    sitemap(),
-    robotsTxt({
-      sitemap: [
-        "https://vaibhavpathak.me/sitemap-index.xml",
-        "https://vaibhavpathak.me/sitemap-0.xml",
-      ],
-    }),
     solidJs(),
     UnoCSS({ injectReset: true }),
     icon(),
