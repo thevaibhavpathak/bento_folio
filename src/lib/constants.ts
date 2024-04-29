@@ -1,7 +1,7 @@
 export const LINKS = {
   github: "https://github.com/thevaibhavpathak",
   linkedin: "https://www.linkedin.com/in/thevaibhavpathak/",
-  medium: "https://medium.com/@vaibhavpathak2003",
+  medium: "https://medium.com/@thevaibhavpathak",
   discord: "https://discordapp.com/users/eag7et",
   dribble: "https://behance.com/thevaibhavpathak",
 };
