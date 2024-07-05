@@ -1,8 +1,8 @@
 ---
-import { Redirect } from 'astro';
+import { redirectTo } from 'astro';
 
 export function get() {
-  return Redirect('https://drive.google.com/file/d/1JnvgB-z96cR1HoQWFGQoL5k1Mq0eV7Wh/view', 302);
+  return redirectTo('https://drive.google.com/file/d/1JnvgB-z96cR1HoQWFGQoL5k1Mq0eV7Wh/view', 302);
 }
 ---
 
