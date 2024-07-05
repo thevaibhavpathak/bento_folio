@@ -1,159 +1,82 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import { Redirect } from 'astro';
+
+export function get() {
+  return Redirect('https://drive.google.com/file/d/1JnvgB-z96cR1HoQWFGQoL5k1Mq0eV7Wh/view', 302);
+}
 ---
 
-<Layout title="Vaibhav Pathak - Resume" description="Resume of Vaibhav Pathak">
-  <main class="latex-style m-auto p-6 max-w-3xl bg-white text-black">
-    <section class="mb-6 text-center">
-      <h1 class="text-3xl font-serif mb-1">Vaibhav Pathak</h1>
-      <div class="flex justify-center space-x-4 text-sm text-linkcolour">
-        <a href="mailto:vaibhavpathak2003@gmail.com" class="underline">vaibhavpathak2003@gmail.com</a>
-        <span>&#8226;</span>
-        <a href="https://www.linkedin.com/in/thevaibhavpathak/" class="underline">LinkedIn</a>
-        <span>&#8226;</span>
-        <a href="https://github.com/thevaibhavpathak" class="underline">GitHub</a>
-        <span>&#8226;</span>
-        <span>+91-9347132610</span>
-      </div>
-      <div class="text-sm">Hyderabad, Telangana</div>
-    </section>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="generator" content="Astro" />
+    <title>Resume Redirect</title>
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content="0;url=https://drive.google.com/file/d/1JnvgB-z96cR1HoQWFGQoL5k1Mq0eV7Wh/view" />
+    <style is:global>
+      @font-face {
+        font-family: "CabinetGrotesk";
+        src: url("/fonts/CabinetGrotesk-Variable.ttf") format("truetype-variations");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        font-weight: 100 1000;
+      }
+      @font-face {
+        font-family: "Satoshi";
+        src: url("/fonts/Satoshi-Variable.ttf") format("truetype-variations");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        font-weight: 100 1000;
+      }
 
-    <section class="mb-6">
-      <h2 class="text-xl font-serif mb-2">Education</h2>
-      <div>
-        <p><span class="textBF">BTech</span> in Computer Science and Engineering -- Vellore Institute of Technology <span class="italic">(CGPA: 8.52)</span></p>
-        <p class="text-right">Sep 2021 -- Present</p>
-      </div>
-      <div>
-        <p><span class="textBF">Pre-University</span> -- Ramaiah IIT Study Circle <span class="italic">(Percentage: 94%)</span></p>
-        <p class="text-right">Jul 2019 -- May 2021</p>
-      </div>
-      <div>
-        <p><span class="textBF">Schooling</span> -- The Hyderabad Public School, Begumpet <span class="italic">(Percentage: 92%)</span></p>
-        <p class="text-right">Jul 2014 -- May 2019</p>
-      </div>
-    </section>
+      body {
+        margin: 0;
+        font-family: "Satoshi", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        background-color: #171717; /* Dark background color */
+        color: #ffffff; /* White text color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
 
-    <section class="mb-6">
-      <h2 class="text-xl font-serif mb-2">Skills</h2>
-      <div>
-        <p><span class="textBF">Languages</span> -- English, Hindi, Marathi, Kannada, Telugu, Tamil</p>
-        <p><span class="textBF">Programming Languages</span> -- C++, Java, Python, SQL, HTML5, CSS, JavaScript, Next.js, Node.js, TypeScript, Go, Clerk, Drizzle ORM, MATLAB, R, Verilog</p>
-        <p><span class="textBF">Design Tools</span> -- Figma, Adobe XD, Adobe Illustrator, Framer, Basic knowledge in Adobe Photoshop</p>
-        <p><span class="textBF">Design Skills</span> -- User research, Wireframing, Usability Studies, Prototyping, Presentation</p>
-        <p><span class="textBF">Certificates</span> -- <a href="https://drive.google.com/file/d/1WS-IXc096DnIt8R9SYosxBnmbEqB9t3W/view?usp=sharing" class="underline">Google UX Design</a></p>
-      </div>
-    </section>
+      .container {
+        width: 80%;
+        max-width: 600px;
+        background-color: #171717; /* Updated background color */
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border: 2px solid #404040; /* Outline color */
+      }
 
-    <section class="mb-6">
-      <h2 class="text-xl font-serif mb-2">Experience</h2>
-      <div>
-        <p><span class="textBF">Thal.e</span> -- Product Designer</p>
-        <p class="text-right">Jun 2023 - Present</p>
-        <p>Led a team to create visually compelling designs for digital platforms and marketing materials, ensuring brand consistency and superior user experience; attracted 550+ users, processed 1100+ orders, and achieved a GMV of Rs.100,700+</p>
-      </div>
-      <div>
-        <p><span class="textBF">Arete IR</span> -- Project Trainee</p>
-        <p class="text-right">Aug 2023</p>
-        <p>Gained hands-on experience in various cybersecurity tools and techniques, working with a team to analyze and mitigate potential security threats.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Freelance</span> -- UI/UX Designer</p>
-        <p class="text-right">Aug 2021</p>
-        <p>Collaborated with clients to understand business objectives and user requirements, crafting intuitive and visually appealing interfaces for web/mobile apps; boosted user engagement by 30% and completed 10+ graphic design projects.</p>
-      </div>
-    </section>
+      .container:hover {
+        border-color: #baf144; /* Hover outline color */
+      }
 
-    <section class="mb-6">
-      <h2 class="text-xl font-serif mb-2">Projects</h2>
-      <div>
-        <p><span class="textBF">Contactify</span> -- Team Project (<a href="www.contactify.codechefvit.com" class="underline italic">Link</a>)</p>
-        <p class="text-right">Sep 2023</p>
-        <p>Redesigned UI/UX for a web app, introducing an intuitive drag-and-drop interface and streamlined user workflow; boosted user satisfaction by 40% and reduced task completion time by 25%.</p>
-      </div>
-      <div>
-        <p><span class="textBF">NeuroNotes</span> -- Personal Project (<a href="https://github.com/thevaibhavpathak/neuronotes" class="underline italic">GitHub Link</a>)</p>
-        <p class="text-right">Jun 2024</p>
-        <p>Engineered an AI-powered file management application with OpenAI integration for document querying, vector search for relevance scoring, automatic project description generation, note-taking, and organizational sharing options.</p>
-      </div>
-      <div>
-        <p><span class="textBF">VBA Whatsapp Automation</span> -- Personal Project (<a href="https://github.com/thevaibhavpathak/whatsapp_automation" class="underline italic">GitHub Link</a>)</p>
-        <p class="text-right">Jun 2023</p>
-        <p>Developed VBA automation tool for WhatsApp messaging, using selenium webdrivers. Reduced work by 75%, showcasing initiative and problem-solving skills.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Personal Portfolio</span> -- Personal Project (<a href="https://vaibhavpathak.me" class="underline italic">Link</a>)</p>
-        <p class="text-right">Jan 2024</p>
-        <p>Produced a portfolio website with type-safe development using TypeScript; implemented bento grid layout and optimized user experience, resulting in a 35% surge in project inquiries and 20% faster page load times.</p>
-      </div>
-    </section>
+      p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        text-align: center; /* Ensure text is centered */
+        margin-bottom: 1rem;
+      }
 
-    <section class="mb-6">
-      <h2 class="text-xl font-serif mb-2">Hackathons</h2>
-      <div>
-        <p><span class="textBF">Education Track & Best UI/UX</span> -- YANTRA '24 (<a href="https://github.com/shivamgutgutia/bhasha-xr" class="underline italic">Basha XR</a>)</p>
-        <p class="text-right">May 2024</p>
-        <p>Redesigned UI/UX elements for a VR language learning application tailored for Indian users. Generated immersive experiences using Unity for Meta Quest 3. Implemented AI-driven personalized learning pathways.</p>
-      </div>
-      <div>
-        <p><span class="textBF">First Prize</span> -- YANTRA '23 (<a href="https://github.com/thevaibhavpathak/care-bridge-web" class="underline italic">Care Bridge</a>)</p>
-        <p class="text-right">Jun 2023</p>
-        <p>Created the front-end and refined UX for CareBridge, an app combining Machine Learning and social networking; reduced user onboarding time by 50% and increased elderly user retention by 40%.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Best Implementation and Symbl.ai Track</span> -- Devspace by CSI (<a href="https://github.com/thevaibhavpathak/DevSpace-22" class="underline italic">Étudie</a>)</p>
-        <p class="text-right">Jun 2022</p>
-        <p>Assembled an all-in-one platform with live drawing boards, seamless video playback, Symbl.ai-powered voice chat with transcription, and inbuilt code editors; optimized team collaboration and prototyping efficiency, boosting project completion rate by 30%.</p>
-      </div>
-    </section>
-
-    <section class="mb-6">
-      <h2 class="text-xl font-serif mb-2">Co-Curricular</h2>
-      <div>
-        <p><span class="textBF">Design Lead</span> -- CodeChef-VIT</p>
-        <p class="text-right">Jul 2023 -- Present</p>
-        <p>Led UI/UX design for multiple projects, contributing to superior user engagement. Collaborated with crossfunctional teams to implement user-centric design principles and iterative feedback processes.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Finance Head</span> -- Ayuda NGO</p>
-        <p class="text-right">Jan 2023 -- Mar 2024</p>
-        <p>Managed the annual budget, optimizing resource allocation and reducing operational costs. Formulated financial plans aligned with organizational goals, enhancing fundraising efficiency and program reach.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Design Mentor</span> -- Matrix</p>
-        <p class="text-right">Jan 2023 -- Mar 2024</p>
-        <p>Mentored aspiring designers through sessions and workshops. Provided guidance and support, helping mentees improve their skills and pursue opportunities in the design industry.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Organizer</span> -- Agaaz 7.0</p>
-        <p class="text-right">Feb 2024</p>
-        <p>Played a key role in organizing Agaaz 7.0, a premium event of Riviera '24, featuring 4 renowned stand-up comedians performing for over 2,000 people.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Technical Manager</span> -- ICETITE '24</p>
-        <p class="text-right">Feb 2024</p>
-        <p>Ensured optimal user experience for participants, overseeing logistics and judging the BOLT 2.0 hackathon, fostering a productive environment.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Coordinator</span> -- Special Guest Care - Riviera '24</p>
-        <p class="text-right">Feb 2024</p>
-        <p>Coordinated hospitality and logistics for distinguished guests at Riviera '24, VIT's cultural fest, ensuring a memorable experience for VIPs.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Coordinator</span> -- Registrations and Receptions - Gravitas '23</p>
-        <p class="text-right">Sept 2023</p>
-        <p>Oversaw registration and reception for Gravitas '23, a prominent management event, ensuring smooth operations and a welcoming atmosphere for participants.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Organizer</span> -- DEVSOC'23</p>
-        <p class="text-right">Jun 2023</p>
-        <p>Organized the largest student-led hackathon in South Asia, ensuring a positive experience for over 2,000 attendees.</p>
-      </div>
-      <div>
-        <p><span class="textBF">Volunteer</span> -- Proshows - Riviera '23</p>
-        <p class="text-right">Feb 2023</p>
-        <p>Supported the organizing committee for one of India's most prestigious student-run cultural events, facilitating an event for over 30,000 participants.</p>
-      </div>
-    </section>
-  </main>
-</Layout>
+      .link {
+        color: #baf144; /* Primary color for links */
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>If you are not redirected, <a class="link" href="https://drive.google.com/file/d/1JnvgB-z96cR1HoQWFGQoL5k1Mq0eV7Wh/view">click here</a>.</p>
+    </div>
+  </body>
+</html>
