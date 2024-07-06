@@ -1,8 +1,8 @@
 ---
-import { redirectTo } from 'astro';
 
+  // Redirect the page using window.location.href
 export function get() {
-  return redirectTo('https://drive.google.com/file/d/1JnvgB-z96cR1HoQWFGQoL5k1Mq0eV7Wh/view', 302);
+  return window.location.href = 'https://drive.google.com/file/d/1JnvgB-z96cR1HoQWFGQoL5k1Mq0eV7Wh/view';
 }
 ---
 
