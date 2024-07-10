@@ -11,9 +11,11 @@ interface Props {
   colorText?: string;
   height?: string;
   width?: string;
+  newTab?: boolean;
 }
 
-const { title, body, colSpan, rowSpan, href, colorText, height } = Astro.props;
+const { title, body, colSpan, rowSpan, href, colorText, height, newTab } =
+  Astro.props;
 ---
 
 <div
@@ -25,11 +27,17 @@ const { title, body, colSpan, rowSpan, href, colorText, height } = Astro.props;
 >
   {
     href ? (
-      <a target = "_blank" href={href} class={`h-full w-full ${colorText || " "}`}>
-        { <Icon
-          name="ri:arrow-right-up-line"
-          class="h-6 float-right group-hover:text-primary-500 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform ease-in-out duration-100 z-20"
-        />}
+      <a
+        target={newTab ? "_blank" : ""}
+        href={href}
+        class={`h-full w-full ${colorText || " "}`}
+      >
+        {
+          <Icon
+            name="ri:arrow-right-up-line"
+            class="h-6 float-right group-hover:text-primary-500 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform ease-in-out duration-100 z-20"
+          />
+        }
         <Content title={title} body={body}>
           <slot />
         </Content>
