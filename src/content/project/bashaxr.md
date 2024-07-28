@@ -51,9 +51,17 @@ Meet our primary user personas:
 
 Our UI draws inspiration from India's vibrant marketplaces, making each interaction a visual treat. The primary color green symbolizes growth and renewal, while earth tones in our secondary palette evoke warmth and reliability. Typography combines a Devanagari-inspired display font for headers with a clean sans-serif for body text, enhancing readability and cultural resonance.
 
+<video width="100%" height="auto    " controls>
+  <source src="/bento_folio/public/project_images/Basha.xr/" type="video/mp4">
+  Our experience
+</video>
+
 ## 🔦 Future and Enhanced AR Technology
 
 As we look to the future, BashaXR is set to revolutionize language learning and real-time communication with the development of advanced AR glasses. These cutting-edge glasses will provide instant translation and suggest contextually appropriate replies, empowering users to engage in meaningful conversations without hesitation.
+
+Below is the image of the Argument Reality Sunglasses:
+![ar sunglasses](../../../public/project_images/Basha.xr/1920_movieartist039simpression.jpg)
 
 ## Conclusion
 
