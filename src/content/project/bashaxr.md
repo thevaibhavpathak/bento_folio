@@ -8,7 +8,7 @@ category: "VR"
 
 Imagine being dropped in the bustling streets of Vellore with minimal Tamil skills—that was me, during my B.Tech days, trying to make sense of the local lingo. Fast forward to today, I'm thrilled to introduce BashaXR, a VR platform designed to tackle just that: language barriers!
 
-![logo](../../../public/project_images/Basha.xr/basha_cover.png)
+![logo](../../../public/project_images/Basha.xr/cover.png)
 
 ## 🎯 Problem Analysis
 
@@ -31,18 +31,7 @@ We started with a diary of my language faux pas in Vellore and expanded by gathe
 
 Meet our primary user personas:
 
-1. **Raj, the Business Traveler**
-
-   - Age: 35
-   - Occupation: Sales Manager
-   - Pain Point: Always hopping cities but can't tell a 'samosa' from a 'pakora'.
-   - Goal: Quick language acquisition for basic business interactions.
-
-2. **Leah, the Culture Enthusiast**
-   - Age: 28
-   - Occupation: Travel Blogger
-   - Pain Point: Loves local crafts but struggles to haggle without a translator.
-   - Goal: Deep cultural immersion through language.
+![logo](../../../public/project_images/Basha.xr/persona.png)
 
 > "Every traveler has a tale. With BashaXR, it's less lost-in-translation, more lost in the experience."
 
