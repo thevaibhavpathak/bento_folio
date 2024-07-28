@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/LayoutBlogPost.astro
+layout: ../../layouts/LayoutProjectPost.astro
 title: "Coming soon"
 description: "this is a project example"
 pubDate: 2024-07-15
