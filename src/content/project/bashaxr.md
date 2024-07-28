@@ -51,10 +51,7 @@ Meet our primary user personas:
 
 Our UI draws inspiration from India's vibrant marketplaces, making each interaction a visual treat. The primary color green symbolizes growth and renewal, while earth tones in our secondary palette evoke warmth and reliability. Typography combines a Devanagari-inspired display font for headers with a clean sans-serif for body text, enhancing readability and cultural resonance.
 
-<video width="100%" height="auto" controls>
-  <source src="/bento_folio/public/project_images/Basha.xr/1714047679627.mp4" type="video/mp4">
-  Our experience
-</video>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/eJNj0DHgdcA" frameborder="0" allowfullscreen></iframe>
 
 ## 🔦 Future and Enhanced AR Technology
 
