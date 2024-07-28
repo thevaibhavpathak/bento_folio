@@ -51,7 +51,7 @@ Meet our primary user personas:
 
 Our UI draws inspiration from India's vibrant marketplaces, making each interaction a visual treat. The primary color green symbolizes growth and renewal, while earth tones in our secondary palette evoke warmth and reliability. Typography combines a Devanagari-inspired display font for headers with a clean sans-serif for body text, enhancing readability and cultural resonance.
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/eJNj0DHgdcA" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="420px" src="https://www.youtube.com/embed/eJNj0DHgdcA" frameborder="0" allowfullscreen></iframe>
 
 ## 🔦 Future and Enhanced AR Technology
 
