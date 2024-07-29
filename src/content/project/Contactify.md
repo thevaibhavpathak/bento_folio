@@ -8,7 +8,7 @@ category: "product"
 
 Ever felt like you’re drowning in a sea of contact spreadsheets, where every attempt to manage them feels like a desperate rescue operation? Welcome **Contactify**—the lifeboat for your contact management nightmares. We’re not just making waves; we’re changing the tides by turning clunky spreadsheets into sleek VCF files that even your smartphone will thank you for.
 
-![logo](../../../public/project_images/Basha.xr/persona.png)
+![logo](../../../public/project_images/Contactify/file%20cover%20-%201.png)
 
 ## 🎯 Problem Analysis:
 
