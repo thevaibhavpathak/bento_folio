@@ -4,6 +4,7 @@ title: "Breaking Language Barriers with BhashaXR: Your VR Travel Companion"
 description: "A language learning application"
 pubDate: 2024-07-28
 category: "VR"
+image: "../../../public/project_images/Basha.xr/cover.png "
 ---
 
 Imagine being dropped in the bustling streets of Vellore with minimal Tamil skills—that was me, during my B.Tech days, trying to make sense of the local lingo. Fast forward to today, I'm thrilled to introduce BhashaXR, a VR platform designed to tackle just that: language barriers!
