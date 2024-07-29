@@ -4,6 +4,7 @@ title: "Contactify: Making Contact Management as Easy as Pie"
 description: "A revolutionary tool for transforming your chaotic contact management into streamlined efficiency."
 pubDate: 2023-12-25
 category: "product"
+image: "../../../public/project_images/Contactify/cover.png"
 ---
 
 Ever felt like you’re drowning in a sea of contact spreadsheets, where every attempt to manage them feels like a desperate rescue operation? Welcome **Contactify**—the lifeboat for your contact management nightmares. We’re not just making waves; we’re changing the tides by turning clunky spreadsheets into sleek VCF files that even your smartphone will thank you for.

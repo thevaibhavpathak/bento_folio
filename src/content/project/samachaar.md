@@ -4,6 +4,7 @@ title: "Samachaar: Making News Fit Your Life, Not the Other Way Around"
 description: "Discover how Samachaar adapts to your busy life, offering a seamless and engaging news experience tailored to your needs."
 pubDate: 2024-03-25
 category: "product"
+image: "../../../public/project_images/Samachaar/cover.png"
 ---
 
 Ever tried keeping up with the news amidst the chaos of daily life? Whether you're navigating a hectic commute, trying to focus in a crowded café, or juggling tasks at home, staying informed often gets sidelined. That’s where **Samachaar** comes in—your personalized news companion designed to fit seamlessly into your busy lifestyle.
