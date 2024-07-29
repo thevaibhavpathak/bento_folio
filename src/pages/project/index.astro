@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import PostRow from "../../components/Project/PostRow.astro";
 
+
 const posts = (await getCollection("project"))?.sort(
   (project1, project2) =>
     (project2.data.pubDate || new Date()).getTime() -
@@ -10,18 +11,22 @@ const posts = (await getCollection("project"))?.sort(
 );
 ---
 
+
 <script>
   import { timeline, type TimelineDefinition } from "motion";
   import { loaderAnimation } from "../../lib/constants";
 
+
   const sequence = [loaderAnimation];
+
 
   timeline(sequence as TimelineDefinition);
 </script>
 
+
 <Layout
   title="Vaibhav Pathak - Projects"
-  description="Software developer with strong focus on the user experience animations and micro interactions"
+  description="Product Designer and Developer"
 >
   <main
     class="w-screen h-screen flex flex-col justify-start items-start max-w-3xl mx-auto p-8"
@@ -31,7 +36,7 @@ const posts = (await getCollection("project"))?.sort(
       class="text-white bg-neutral-900 hover:bg-neutral-800 px-4 py-2 mb-8 border-1 border-solid border-neutral-600 rounded-lg"
       >Back</a
     >
-    <h1 class="text-4xl font-bold mb-4 text-neutral-100">Projects</h1>
+    <h1 class="text-4xl font-bold mb-4 text-neutral-100">Projects </h1>
     <ul class="w-full">
       {
         posts?.map((post) => (
@@ -45,3 +50,5 @@ const posts = (await getCollection("project"))?.sort(
     </ul>
   </main>
 </Layout>
+
+
