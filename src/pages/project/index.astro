@@ -33,7 +33,7 @@ const posts = (await getCollection("project"))?.sort(
             title={post.data.title || "No title"}
             date={post.data.pubDate || new Date()}
             url={post.slug}
-            image={post.data.image || "../../../public/project_images/Basha.xr/cover.png"} // Ensure you have an image path in your project data
+            img={post.data.image || "/project_images/Basha.xr/cover.png"} // Ensure you have an image path in your project data
           />
         ))
       }

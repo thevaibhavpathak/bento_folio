@@ -4,12 +4,12 @@ title: "Breaking Language Barriers with BhashaXR: Your VR Travel Companion"
 description: "A language learning application"
 pubDate: 2024-07-28
 category: "VR"
-image: "../../../public/project_images/Basha.xr/cover.png "
+image: "/project_images/Basha.xr/cover.png "
 ---
 
 Imagine being dropped in the bustling streets of Vellore with minimal Tamil skills—that was me, during my B.Tech days, trying to make sense of the local lingo. Fast forward to today, I'm thrilled to introduce BhashaXR, a VR platform designed to tackle just that: language barriers!
 
-![logo](../../../public/project_images/Basha.xr/cover.png)
+![logo](/project_images/Basha.xr/cover.png)
 
 ## 🎯 Problem Analysis
 
@@ -32,7 +32,7 @@ We started with a diary of my language faux pas in Vellore and expanded by gathe
 
 Meet our primary user personas:
 
-![logo](../../../public/project_images/Basha.xr/persona.png)
+![logo](/project_images/Basha.xr/persona.png)
 
 > "Every traveler has a tale. With BhashaXR, it's less lost-in-translation, more lost in the experience."
 
@@ -62,7 +62,7 @@ Our UI draws inspiration from India's vibrant marketplaces, making each interact
 
 As we look to the future, BhashaXR is set to revolutionize language learning and real-time communication with the development of advanced AR glasses. These cutting-edge glasses will provide instant translation and suggest contextually appropriate replies, empowering users to engage in meaningful conversations without hesitation.
 
-![ar sunglasses](../../../public/project_images/Basha.xr/1920_movieartist039simpression.jpg)
+![ar sunglasses](/project_images/Basha.xr/1920_movieartist039simpression.jpg)
 
 ## Conclusion
 
