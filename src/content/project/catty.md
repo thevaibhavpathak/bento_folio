@@ -35,9 +35,9 @@ While on the move, inspectors can verbally report their findings. CATTY’s stat
 
 ## 🎨 Design and User Experience
 
-Designed with clarity and simplicity in mind, CATTY’s user interface suits even the toughest industrial settings. Its high-contrast visuals and large, easy-to-interact elements ensure that using the tool is straightforward and stress-free, because high-tech tools should also be stylish and easy to use!
+A key component of CATTY’s success is its intuitive and functional user interface, designed to withstand the rigors of industrial environments. Below is an example of CATTY's inspection report interface, which exemplifies our commitment to clarity and usability:
 
-![UI Design](/project_images/CATTY/ui_design.png)
+![UI Design](/project_images/CATTY/report.png)
 
 ## 🔦 Looking Ahead
 
