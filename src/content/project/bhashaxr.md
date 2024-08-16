@@ -17,8 +17,9 @@ Navigating a new city is thrilling until you need to buy water and end up with a
 
 ### Market Research Highlights:
 
-- **60%** of travelers report feeling anxious about language barriers (Travel Pulse Survey, 2023).
-- **78%** express interest in quick, immersive language learning solutions (GlobalLearn Report, 2024).
+Recent market research indicates a projected 20% annual growth in the language learning sector, driven by the integration of VR technologies that enhance and personalize learning experiences. <a href="https://www.gminsights.com/industry-analysis/language-learning-market" style="color: #BAF144; text-decoration: underline;">Global Market Insights</a> details this trend.
+
+Additionally, <a href="https://techreport.com/statistics/lifestyle/language-learning-market-statistics/" style="color: #BAF144; text-decoration: underline;">TechReport</a> underscores the impact of AI and VR in making language learning more effective and tailored to global needs.
 
 Enter BhashaXR: blending VR with AI to craft an engaging, 'learn-by-doing' language learning adventure.
 
