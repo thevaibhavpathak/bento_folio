@@ -9,29 +9,35 @@ function Tooltip(props: Props) {
   const [clickCount, setClickCount] = createSignal(0);
 
   const messages = [
-    "Hi there!",
-    "Clicked again?",
-    "Still here?",
-    "Persistent, aren't you?",
-    "What's up?",
-    "Again? Really?",
-    "You're curious!",
-    "Not cool!",
-    "Give it a break!",
-    "That's annoying!",
-    "Hands off!",
-    "No more clicks!",
-    "Seriously?!",
-    "Ouch! That hurts!",
-    "You're persistent!",
-    "Why the curiosity?",
-    "I'm getting tired!",
-    "I'm bored!",
-    "Enough's enough!",
-    "Find another hobby!",
-    "Stop, please!",
-    "Okay, last one!",
-    "That's it, I'm done!",
+    // Phase 1: Friendly & Curious
+    "UI element loaded!",
+    "Nudging 1px to the right...",
+    "Are we testing the hover state?",
+    "Hmm, nice border-radius on this button.",
+    "Checking the hex codes...",
+
+    // Phase 2: Sarcastic & Annoyed
+    "Okay, the user feedback is clear: you like clicking.",
+    "Don't mess with my whitespace!",
+    "Is this button not aligned? I swear it is.",
+    "This is worse than trying to center a div.",
+    "I bet the client told you to 'make it pop'.",
+
+    // Phase 3: Getting Desperate
+    "Please, think of the pixels!",
+    "The design system can't handle this.",
+    "My prototypes are less chaotic.",
+    "This is not accessible behaviour!",
+    "Ouch! Right in the CSS box model!",
+
+    // Phase 4: Full Meltdown & Surrender
+    "Go group your layers in Figma or something!",
+    "I'm putting `!important` on this message.",
+    "Okay, that's it. I'm switching to dark mode.",
+    "Find another component to bother!",
+    "One more click and the whole site turns to Comic Sans.",
+    "Final_Final_Design_v2.txt",
+    "#FFFFFF! I surrender!", // Hex code for a white flag
   ];
 
   const currentMessage = () => {
